@@ -1,17 +1,17 @@
 import React from 'react';
-import Greeting from './Greeting';
-import Header from './Header';
-import Content from './Content';
-import Footer from './Footer';
-import './App.css'
+import './styles/App.css';
+import Navbar from './components/Navbar';
+import LandingPage from './components/LandingPage';
+import Footer from './components/Footer';
+import Form from './components/Form';
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <Greeting />
-      <Content />
-      <Footer />
+      <Navbar/>
+      <LandingPage />
+      <Form/>
+      <Footer/>
     </div>
   );
 }
