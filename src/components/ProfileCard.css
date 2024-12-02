@@ -1,0 +1,45 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.card
+{
+    display: block;
+    padding: 50px;
+    border: 2.5px solid #020202;
+    border-radius: 20px;
+    background-color: rgb(116, 8, 8);
+    width: 300px;
+    box-shadow: black 0 4px 6px;
+    text-align: center;
+
+}
+h1{
+    font-family: sans-serif;
+    text-align: center;
+    font-weight: 600;
+    font-style: italic;
+    color: black;
+    font-size: 40px;
+}
+.name, .locate, .info{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.name{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: rgb(206, 232, 253);
+}
+
+.info{
+    font-size: 16px;
+    color: rgb(206, 232, 253);
+    margin-bottom: 20px;
+}
+.locate{
+    font-size: 14px;
+    color: rgb(206, 232, 253);
+}
